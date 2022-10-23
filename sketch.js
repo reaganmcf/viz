@@ -16,7 +16,7 @@ function setupMic() {
 }
 
 function setup() {
-  cnv = createCanvas(750, 750);
+  cnv = createCanvas(windowWidth, windowHeight);
   img = loadImage('./assets/foxr.png');
   frameRate(60)
 
