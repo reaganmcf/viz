@@ -31,7 +31,7 @@ function setupSliders() {
   spaceSliderLabel.style('color', 'white')
 
   // Mic coeff
-  micCoeffSlider = createSlider(1, 5, 1, 0.25);
+  micCoeffSlider = createSlider(1, 40, 1, 0.25);
   micCoeffSlider.position(10, 40);
   micCoeffSlider.style('width', '100px');
 
@@ -74,7 +74,7 @@ function draw() {
   noiseDetailValue = noiseDetailSlider.value();
   noiseDetail(noiseDetailValue);
 
-  background(30);
+  background(0);
   noStroke();
 
   translate(width / 2, height / 2);
