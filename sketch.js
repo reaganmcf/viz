@@ -19,7 +19,7 @@ function setupMic() {
 }
 
 function setupSliders() {
-  // Spacing
+  // Spacin
   spaceSlider = createSlider(0.1, 5, 0.1, 0.1);
   spaceSlider.position(10, 20);
   spaceSlider.style('width', '100px');
@@ -74,7 +74,7 @@ function draw() {
   noiseDetailValue = noiseDetailSlider.value();
   noiseDetail(noiseDetailValue);
 
-  background(0);
+  background("#1e1e2e");
   noStroke();
 
   translate(width / 2, height / 2);
